@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99AFC2BF2C3461770016FA57 /* Swift_NHKNewsRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2BE2C3461770016FA57 /* Swift_NHKNewsRadioApp.swift */; };
+		99AFC2C32C3461780016FA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99AFC2C22C3461780016FA57 /* Assets.xcassets */; };
+		99AFC2FE2C3462510016FA57 /* DatePickBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2CD2C3462510016FA57 /* DatePickBarView.swift */; };
+		99AFC2FF2C3462510016FA57 /* DatePickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2CE2C3462510016FA57 /* DatePickView.swift */; };
+		99AFC3002C3462510016FA57 /* RadioSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2D12C3462510016FA57 /* RadioSectionModel.swift */; };
+		99AFC3012C3462510016FA57 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2D32C3462510016FA57 /* MainViewModel.swift */; };
+		99AFC3022C3462510016FA57 /* LocationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2D52C3462510016FA57 /* LocationBarView.swift */; };
+		99AFC3032C3462510016FA57 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2D62C3462510016FA57 /* MainView.swift */; };
+		99AFC3042C3462510016FA57 /* NHKNewsRadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2D72C3462510016FA57 /* NHKNewsRadioModel.swift */; };
+		99AFC3052C3462510016FA57 /* RadioItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2D82C3462510016FA57 /* RadioItemView.swift */; };
+		99AFC3062C3462510016FA57 /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2D92C3462510016FA57 /* RadioModel.swift */; };
+		99AFC3072C3462510016FA57 /* RadioSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2DA2C3462510016FA57 /* RadioSectionView.swift */; };
+		99AFC3082C3462510016FA57 /* PlayBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2DE2C3462510016FA57 /* PlayBarView.swift */; };
+		99AFC3092C3462510016FA57 /* PlayPopOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2DF2C3462510016FA57 /* PlayPopOperation.swift */; };
+		99AFC30A2C3462510016FA57 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2E02C3462510016FA57 /* PlayView.swift */; };
+		99AFC30B2C3462510016FA57 /* SettingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2E32C3462510016FA57 /* SettingBarView.swift */; };
+		99AFC30C2C3462510016FA57 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2E42C3462510016FA57 /* SettingView.swift */; };
+		99AFC30D2C3462510016FA57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99AFC2E82C3462510016FA57 /* Preview Assets.xcassets */; };
+		99AFC30E2C3462510016FA57 /* ConstantDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2EA2C3462510016FA57 /* ConstantDefine.swift */; };
+		99AFC30F2C3462510016FA57 /* NHKRadioNewsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2EB2C3462510016FA57 /* NHKRadioNewsDataService.swift */; };
+		99AFC3102C3462510016FA57 /* NHKRadioNewsSoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2EC2C3462510016FA57 /* NHKRadioNewsSoundService.swift */; };
+		99AFC3112C3462510016FA57 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2ED2C3462510016FA57 /* SoundService.swift */; };
+		99AFC3122C3462510016FA57 /* FrameReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2EF2C3462510016FA57 /* FrameReader.swift */; };
+		99AFC3132C3462510016FA57 /* LocationReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2F02C3462510016FA57 /* LocationReader.swift */; };
+		99AFC3142C3462510016FA57 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2F32C3462510016FA57 /* LocalFileManager.swift */; };
+		99AFC3152C3462510016FA57 /* NHKNewsRadioXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2F42C3462510016FA57 /* NHKNewsRadioXMLParser.swift */; };
+		99AFC3162C3462510016FA57 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2F52C3462510016FA57 /* Utils.swift */; };
+		99AFC3172C3462510016FA57 /* AVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2F72C3462510016FA57 /* AVDelegate.swift */; };
+		99AFC3182C3462510016FA57 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2F92C3462510016FA57 /* Color.swift */; };
+		99AFC3192C3462510016FA57 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2FA2C3462510016FA57 /* Date.swift */; };
+		99AFC31A2C3462510016FA57 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2FB2C3462510016FA57 /* Double.swift */; };
+		99AFC31B2C3462510016FA57 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFC2FC2C3462510016FA57 /* TimeInterval.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99AFC2BB2C3461770016FA57 /* Swift_NHKNewsRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_NHKNewsRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AFC2BE2C3461770016FA57 /* Swift_NHKNewsRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_NHKNewsRadioApp.swift; sourceTree = "<group>"; };
+		99AFC2C22C3461780016FA57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99AFC2C42C3461780016FA57 /* Swift_NHKNewsRadio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift_NHKNewsRadio.entitlements; sourceTree = "<group>"; };
+		99AFC2CD2C3462510016FA57 /* DatePickBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickBarView.swift; sourceTree = "<group>"; };
+		99AFC2CE2C3462510016FA57 /* DatePickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickView.swift; sourceTree = "<group>"; };
+		99AFC2D12C3462510016FA57 /* RadioSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioSectionModel.swift; sourceTree = "<group>"; };
+		99AFC2D32C3462510016FA57 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		99AFC2D52C3462510016FA57 /* LocationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationBarView.swift; sourceTree = "<group>"; };
+		99AFC2D62C3462510016FA57 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		99AFC2D72C3462510016FA57 /* NHKNewsRadioModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHKNewsRadioModel.swift; sourceTree = "<group>"; };
+		99AFC2D82C3462510016FA57 /* RadioItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioItemView.swift; sourceTree = "<group>"; };
+		99AFC2D92C3462510016FA57 /* RadioModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
+		99AFC2DA2C3462510016FA57 /* RadioSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioSectionView.swift; sourceTree = "<group>"; };
+		99AFC2DE2C3462510016FA57 /* PlayBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayBarView.swift; sourceTree = "<group>"; };
+		99AFC2DF2C3462510016FA57 /* PlayPopOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayPopOperation.swift; sourceTree = "<group>"; };
+		99AFC2E02C3462510016FA57 /* PlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		99AFC2E32C3462510016FA57 /* SettingBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingBarView.swift; sourceTree = "<group>"; };
+		99AFC2E42C3462510016FA57 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		99AFC2E82C3462510016FA57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99AFC2EA2C3462510016FA57 /* ConstantDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantDefine.swift; sourceTree = "<group>"; };
+		99AFC2EB2C3462510016FA57 /* NHKRadioNewsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHKRadioNewsDataService.swift; sourceTree = "<group>"; };
+		99AFC2EC2C3462510016FA57 /* NHKRadioNewsSoundService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHKRadioNewsSoundService.swift; sourceTree = "<group>"; };
+		99AFC2ED2C3462510016FA57 /* SoundService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		99AFC2EF2C3462510016FA57 /* FrameReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameReader.swift; sourceTree = "<group>"; };
+		99AFC2F02C3462510016FA57 /* LocationReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationReader.swift; sourceTree = "<group>"; };
+		99AFC2F32C3462510016FA57 /* LocalFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		99AFC2F42C3462510016FA57 /* NHKNewsRadioXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHKNewsRadioXMLParser.swift; sourceTree = "<group>"; };
+		99AFC2F52C3462510016FA57 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		99AFC2F72C3462510016FA57 /* AVDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVDelegate.swift; sourceTree = "<group>"; };
+		99AFC2F92C3462510016FA57 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		99AFC2FA2C3462510016FA57 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		99AFC2FB2C3462510016FA57 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		99AFC2FC2C3462510016FA57 /* TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99AFC2B82C3461770016FA57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99AFC2B22C3461770016FA57 = {
+			isa = PBXGroup;
+			children = (
+				99AFC2BD2C3461770016FA57 /* Swift_NHKNewsRadio */,
+				99AFC2BC2C3461770016FA57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99AFC2BC2C3461770016FA57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2BB2C3461770016FA57 /* Swift_NHKNewsRadio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99AFC2BD2C3461770016FA57 /* Swift_NHKNewsRadio */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2E92C3462510016FA57 /* Preview Content */,
+				99AFC2C42C3461780016FA57 /* Swift_NHKNewsRadio.entitlements */,
+				99AFC2BE2C3461770016FA57 /* Swift_NHKNewsRadioApp.swift */,
+				99AFC2C22C3461780016FA57 /* Assets.xcassets */,
+				99AFC2E72C3462510016FA57 /* Core */,
+				99AFC2FD2C3462510016FA57 /* Extensions */,
+				99AFC2F82C3462510016FA57 /* Helper */,
+				99AFC2EE2C3462510016FA57 /* Services */,
+				99AFC2F62C3462510016FA57 /* Utilities */,
+			);
+			path = Swift_NHKNewsRadio;
+			sourceTree = "<group>";
+		};
+		99AFC2CF2C3462510016FA57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2CD2C3462510016FA57 /* DatePickBarView.swift */,
+				99AFC2CE2C3462510016FA57 /* DatePickView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99AFC2D02C3462510016FA57 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2CF2C3462510016FA57 /* Views */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		99AFC2D22C3462510016FA57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2D12C3462510016FA57 /* RadioSectionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99AFC2D42C3462510016FA57 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2D32C3462510016FA57 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		99AFC2DB2C3462510016FA57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2D52C3462510016FA57 /* LocationBarView.swift */,
+				99AFC2D62C3462510016FA57 /* MainView.swift */,
+				99AFC2D72C3462510016FA57 /* NHKNewsRadioModel.swift */,
+				99AFC2D82C3462510016FA57 /* RadioItemView.swift */,
+				99AFC2D92C3462510016FA57 /* RadioModel.swift */,
+				99AFC2DA2C3462510016FA57 /* RadioSectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99AFC2DC2C3462510016FA57 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2D22C3462510016FA57 /* Models */,
+				99AFC2D42C3462510016FA57 /* ViewModels */,
+				99AFC2DB2C3462510016FA57 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		99AFC2DD2C3462510016FA57 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		99AFC2E12C3462510016FA57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2DE2C3462510016FA57 /* PlayBarView.swift */,
+				99AFC2DF2C3462510016FA57 /* PlayPopOperation.swift */,
+				99AFC2E02C3462510016FA57 /* PlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99AFC2E22C3462510016FA57 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2DD2C3462510016FA57 /* ViewModels */,
+				99AFC2E12C3462510016FA57 /* Views */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		99AFC2E52C3462510016FA57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2E32C3462510016FA57 /* SettingBarView.swift */,
+				99AFC2E42C3462510016FA57 /* SettingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99AFC2E62C3462510016FA57 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2E52C3462510016FA57 /* Views */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		99AFC2E72C3462510016FA57 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2D02C3462510016FA57 /* Date */,
+				99AFC2DC2C3462510016FA57 /* Main */,
+				99AFC2E22C3462510016FA57 /* Play */,
+				99AFC2E62C3462510016FA57 /* Setting */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		99AFC2E92C3462510016FA57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2E82C3462510016FA57 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "Preview Content/Preview Content";
+			sourceTree = "<group>";
+		};
+		99AFC2EE2C3462510016FA57 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2EA2C3462510016FA57 /* ConstantDefine.swift */,
+				99AFC2EB2C3462510016FA57 /* NHKRadioNewsDataService.swift */,
+				99AFC2EC2C3462510016FA57 /* NHKRadioNewsSoundService.swift */,
+				99AFC2ED2C3462510016FA57 /* SoundService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		99AFC2F12C3462510016FA57 /* GeometryReaders */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2EF2C3462510016FA57 /* FrameReader.swift */,
+				99AFC2F02C3462510016FA57 /* LocationReader.swift */,
+			);
+			path = GeometryReaders;
+			sourceTree = "<group>";
+		};
+		99AFC2F22C3462510016FA57 /* SwiftfulUI */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2F12C3462510016FA57 /* GeometryReaders */,
+			);
+			path = SwiftfulUI;
+			sourceTree = "<group>";
+		};
+		99AFC2F62C3462510016FA57 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2F22C3462510016FA57 /* SwiftfulUI */,
+				99AFC2F32C3462510016FA57 /* LocalFileManager.swift */,
+				99AFC2F42C3462510016FA57 /* NHKNewsRadioXMLParser.swift */,
+				99AFC2F52C3462510016FA57 /* Utils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		99AFC2F82C3462510016FA57 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2F72C3462510016FA57 /* AVDelegate.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		99AFC2FD2C3462510016FA57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99AFC2F92C3462510016FA57 /* Color.swift */,
+				99AFC2FA2C3462510016FA57 /* Date.swift */,
+				99AFC2FB2C3462510016FA57 /* Double.swift */,
+				99AFC2FC2C3462510016FA57 /* TimeInterval.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99AFC2BA2C3461770016FA57 /* Swift_NHKNewsRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AFC2CA2C3461780016FA57 /* Build configuration list for PBXNativeTarget "Swift_NHKNewsRadio" */;
+			buildPhases = (
+				99AFC2B72C3461770016FA57 /* Sources */,
+				99AFC2B82C3461770016FA57 /* Frameworks */,
+				99AFC2B92C3461770016FA57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift_NHKNewsRadio;
+			productName = Swift_NHKNewsRadio;
+			productReference = 99AFC2BB2C3461770016FA57 /* Swift_NHKNewsRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99AFC2B32C3461770016FA57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					99AFC2BA2C3461770016FA57 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 99AFC2B62C3461770016FA57 /* Build configuration list for PBXProject "Swift_NHKNewsRadio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99AFC2B22C3461770016FA57;
+			productRefGroup = 99AFC2BC2C3461770016FA57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99AFC2BA2C3461770016FA57 /* Swift_NHKNewsRadio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99AFC2B92C3461770016FA57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AFC30D2C3462510016FA57 /* Preview Assets.xcassets in Resources */,
+				99AFC2C32C3461780016FA57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99AFC2B72C3461770016FA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AFC30F2C3462510016FA57 /* NHKRadioNewsDataService.swift in Sources */,
+				99AFC31B2C3462510016FA57 /* TimeInterval.swift in Sources */,
+				99AFC3042C3462510016FA57 /* NHKNewsRadioModel.swift in Sources */,
+				99AFC3012C3462510016FA57 /* MainViewModel.swift in Sources */,
+				99AFC3122C3462510016FA57 /* FrameReader.swift in Sources */,
+				99AFC3032C3462510016FA57 /* MainView.swift in Sources */,
+				99AFC3162C3462510016FA57 /* Utils.swift in Sources */,
+				99AFC3072C3462510016FA57 /* RadioSectionView.swift in Sources */,
+				99AFC3172C3462510016FA57 /* AVDelegate.swift in Sources */,
+				99AFC3062C3462510016FA57 /* RadioModel.swift in Sources */,
+				99AFC30C2C3462510016FA57 /* SettingView.swift in Sources */,
+				99AFC3092C3462510016FA57 /* PlayPopOperation.swift in Sources */,
+				99AFC3102C3462510016FA57 /* NHKRadioNewsSoundService.swift in Sources */,
+				99AFC2BF2C3461770016FA57 /* Swift_NHKNewsRadioApp.swift in Sources */,
+				99AFC3082C3462510016FA57 /* PlayBarView.swift in Sources */,
+				99AFC3112C3462510016FA57 /* SoundService.swift in Sources */,
+				99AFC2FF2C3462510016FA57 /* DatePickView.swift in Sources */,
+				99AFC2FE2C3462510016FA57 /* DatePickBarView.swift in Sources */,
+				99AFC3182C3462510016FA57 /* Color.swift in Sources */,
+				99AFC30A2C3462510016FA57 /* PlayView.swift in Sources */,
+				99AFC30B2C3462510016FA57 /* SettingBarView.swift in Sources */,
+				99AFC3152C3462510016FA57 /* NHKNewsRadioXMLParser.swift in Sources */,
+				99AFC3052C3462510016FA57 /* RadioItemView.swift in Sources */,
+				99AFC3002C3462510016FA57 /* RadioSectionModel.swift in Sources */,
+				99AFC3192C3462510016FA57 /* Date.swift in Sources */,
+				99AFC3132C3462510016FA57 /* LocationReader.swift in Sources */,
+				99AFC3022C3462510016FA57 /* LocationBarView.swift in Sources */,
+				99AFC30E2C3462510016FA57 /* ConstantDefine.swift in Sources */,
+				99AFC31A2C3462510016FA57 /* Double.swift in Sources */,
+				99AFC3142C3462510016FA57 /* LocalFileManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99AFC2C82C3461780016FA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99AFC2C92C3461780016FA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		99AFC2CB2C3461780016FA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Swift_NHKNewsRadio/Swift_NHKNewsRadio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift_NHKNewsRadio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Radio of NHK News";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.nhkradio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99AFC2CC2C3461780016FA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Swift_NHKNewsRadio/Swift_NHKNewsRadio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift_NHKNewsRadio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Radio of NHK News";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.nhkradio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99AFC2B62C3461770016FA57 /* Build configuration list for PBXProject "Swift_NHKNewsRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AFC2C82C3461780016FA57 /* Debug */,
+				99AFC2C92C3461780016FA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99AFC2CA2C3461780016FA57 /* Build configuration list for PBXNativeTarget "Swift_NHKNewsRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AFC2CB2C3461780016FA57 /* Debug */,
+				99AFC2CC2C3461780016FA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99AFC2B32C3461770016FA57 /* Project object */;
+}
